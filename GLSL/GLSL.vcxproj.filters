@@ -32,9 +32,23 @@
     <None Include="fragmentShader.glsl">
       <Filter>源文件</Filter>
     </None>
+    <None Include="lightVertexShader.glsl" />
+    <None Include="vertexShader.glsl" />
+    <None Include="lightFragmentShader.glsl">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="light_cube_fragmentShader.glsl">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="light_cube_vertexShader.glsl">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="shader_s.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
